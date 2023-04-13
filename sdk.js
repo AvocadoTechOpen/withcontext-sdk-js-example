@@ -18895,7 +18895,7 @@ var WithContextWidgetSDK = (function () {
         },
     };
     function App() {
-        var _a = h(true), showPopover = _a[0], setShowPopover = _a[1];
+        var _a = h(false), showPopover = _a[0], setShowPopover = _a[1];
         return (y$1(_$2, null,
             y$1(LauncherButton, { isOpen: showPopover, onClick: function () { return setShowPopover(!showPopover); } }),
             showPopover && (y$1(Popover, null,
