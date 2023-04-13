@@ -6,7 +6,8 @@
     <title>Example Page</title>
     <script async src="./sdk.js"></script>
     <script>
-      var appId = '01GXTMRPY9YYBD8JDTZYCSVJ7S'
+      var urlParams = new URLSearchParams(window.location.search);
+      var appId = urlParams.get('appId') || '01GXTMRPY9YYBD8JDTZYCSVJ7S';
       window.addEventListener('load', function () {
         var w = WithContextWidgetSDK
         typeof w != null && typeof w.init == 'function' && w.init(appId)
