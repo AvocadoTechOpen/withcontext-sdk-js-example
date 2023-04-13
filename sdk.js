@@ -90,12 +90,12 @@ var WithContextWidgetSDK = (function () {
         y$1("path", { fill: "currentColor", d: "m9.453 14.082 5.18 5.18a2.535 2.535 0 0 1 3.34.754 2.536 2.536 0 1 1-4.282.191L9 15.516a.4.4 0 0 0-.566 0l-1.801 1.8a.403.403 0 0 1-.278.114.403.403 0 0 1-.277-.114l-.39-.39a.403.403 0 0 1-.114-.278c0-.105.043-.203.114-.277l2.359-2.355c.375-.38.992-.348 1.406.066Zm5.586 6.531a1.202 1.202 0 1 0 1.702 1.7 1.202 1.202 0 0 0-1.702-1.7Zm-6.152-4.265 2.281 2.28a.667.667 0 1 1-.941.946L7.94 17.293a.676.676 0 0 1-.187-.652.679.679 0 0 1 .48-.48.676.676 0 0 1 .653.187ZM7.629 5.688l2.355 2.355c.38.379.348.996-.066 1.41l-5.18 5.18a2.536 2.536 0 0 1-.758 3.34 2.536 2.536 0 1 1-.188-4.281L8.485 9a.4.4 0 0 0 0-.566l-1.8-1.801a.387.387 0 0 1-.114-.278c0-.105.04-.203.114-.277l.39-.39a.394.394 0 0 1 .555 0Zm15.629.625c.894.902.984 2.324.215 3.332a2.534 2.534 0 0 1-3.266.664L15.516 15a.4.4 0 0 0 0 .566l1.8 1.801a.394.394 0 0 1 0 .555l-.39.387a.39.39 0 0 1-.278.117.39.39 0 0 1-.277-.117l-2.355-2.356c-.38-.375-.348-.992.066-1.406l5.18-5.18a2.538 2.538 0 0 1 3.996-3.055Zm-21.57 8.726a1.202 1.202 0 1 0 1.701 1.7 1.202 1.202 0 0 0-1.701-1.7Zm17.886-2.207a.667.667 0 0 1 0 .945L17.29 16.06a.665.665 0 0 1-.926-.016.67.67 0 0 1-.015-.93l2.28-2.281a.667.667 0 0 1 .946 0ZM7.652 7.942a.667.667 0 0 1 0 .945l-2.285 2.281a.667.667 0 0 1-.941-.945L6.707 7.94a.667.667 0 0 1 .945 0Zm2.25-7.2a2.53 2.53 0 0 1 .407 3.051L15 8.484a.4.4 0 0 0 .566 0l1.801-1.8a.394.394 0 0 1 .555 0l.387.39a.387.387 0 0 1 0 .555l-2.356 2.355c-.375.38-.992.348-1.406-.066l-5.18-5.18A2.536 2.536 0 1 1 9.902.742Zm10.711 6.52a1.2 1.2 0 1 0 1.681 1.715 1.2 1.2 0 0 0-1.68-1.715Zm-6.84-2.836 2.286 2.281a.676.676 0 0 1 .187.652.679.679 0 0 1-.48.48.676.676 0 0 1-.653-.187l-2.281-2.28a.667.667 0 0 1 .941-.946ZM7.262 1.687a1.202 1.202 0 1 0 1.701 1.7 1.202 1.202 0 0 0-1.701-1.7Zm0 0" })));
     var down = (y$1("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", "stroke-width": "1.5", stroke: "currentColor", style: { width: '24px', height: '24px' } },
         y$1("path", { "stroke-linecap": "round", "stroke-linejoin": "round", d: "M19.5 8.25l-7.5 7.5-7.5-7.5" })));
-    var Button$1 = j('button')(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  color: white;\n  background-color: #00ab55;\n  border: none;\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  cursor: pointer;\n  transition: transform 200ms ease-in-out;\n  &:hover {\n    transform: scale(1.1);\n  }\n  &:active {\n    transform: scale(0.8);\n  }\n"], ["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  color: white;\n  background-color: #00ab55;\n  border: none;\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  cursor: pointer;\n  transition: transform 200ms ease-in-out;\n  &:hover {\n    transform: scale(1.1);\n  }\n  &:active {\n    transform: scale(0.8);\n  }\n"])));
+    var Button$1 = j('button')(templateObject_1$a || (templateObject_1$a = __makeTemplateObject(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  color: white;\n  background-color: #00ab55;\n  border: none;\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  cursor: pointer;\n  transition: transform 200ms ease-in-out;\n  &:hover {\n    transform: scale(1.1);\n  }\n  &:active {\n    transform: scale(0.8);\n  }\n"], ["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  color: white;\n  background-color: #00ab55;\n  border: none;\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  cursor: pointer;\n  transition: transform 200ms ease-in-out;\n  &:hover {\n    transform: scale(1.1);\n  }\n  &:active {\n    transform: scale(0.8);\n  }\n"])));
     function LauncherButton(_a) {
         var isOpen = _a.isOpen, onClick = _a.onClick;
         return y$1(Button$1, { onClick: onClick }, isOpen ? down : logo);
     }
-    var templateObject_1$9;
+    var templateObject_1$a;
 
     /**
      * Throw a given error.
@@ -18449,7 +18449,9 @@ var WithContextWidgetSDK = (function () {
     var appId = u('');
     var isPrivateApp = u(false);
     var chatId = u('');
+    var modelId = u('');
     var modelName = u('');
+    var modelAvatarUrl = u('');
     var modelCreatedAt = u(Date.now());
     var modelIndexStatus = u(0); // 1: indexing, 2: indexed, 3: index failed
     var summaryMessages = u([]);
@@ -18460,8 +18462,11 @@ var WithContextWidgetSDK = (function () {
     var canSendMessage = w(function () {
         return !isWaitingAnswer.value && !isAnswering.value && modelIndexStatus.value === 2;
     });
-    var canTypeMessage = w(function () { return modelIndexStatus.value === 2; });
+    var canTypeMessage = w(function () {
+        return [0, 2].includes(modelIndexStatus.value);
+    });
     var latestMyMessageId = u('');
+    var isAppInitialized = w(function () { return !!modelName.value; });
 
     function sendMessage(message) {
         if (!canSendMessage.value)
@@ -18512,7 +18517,7 @@ var WithContextWidgetSDK = (function () {
         });
     }
 
-    var Link$1 = j('div')(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  margin: 6px 0px;\n  color: #00ab55;\n  cursor: pointer;\n  &:hover {\n    text-decoration: underline;\n  }\n"], ["\n  margin: 6px 0px;\n  color: #00ab55;\n  cursor: pointer;\n  &:hover {\n    text-decoration: underline;\n  }\n"])));
+    var Link$1 = j('div')(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  margin: 6px 0px;\n  color: #00ab55;\n  cursor: pointer;\n  &:hover {\n    text-decoration: underline;\n  }\n"], ["\n  margin: 6px 0px;\n  color: #00ab55;\n  cursor: pointer;\n  &:hover {\n    text-decoration: underline;\n  }\n"])));
     function QuestionLink(_a) {
         var question = _a.question;
         function handleClick(e) {
@@ -18523,7 +18528,7 @@ var WithContextWidgetSDK = (function () {
             y$1("img", { alt: "Question:", src: "https://withcontext.blob.core.windows.net/web/assets/ic_send.svg", width: "12px", height: "12px" }),
             y$1("span", { style: { marginLeft: '4px' } }, question)));
     }
-    var templateObject_1$8;
+    var templateObject_1$9;
 
     function Link(_a) {
         var href = _a.href, children = _a.children;
@@ -18541,8 +18546,8 @@ var WithContextWidgetSDK = (function () {
         return (y$1("a", { href: href, target: "_blank", rel: "noopener noreferrer" }, children));
     }
 
-    var Theme = j("div")(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  color: #212B36;\n\n  & h3 {\n    margin: 0px;\n    margin-bottom: 6px;\n    font-size: 18px;\n    line-height: 28px;\n    color: inherit;\n  }\n\n  & p {\n    margin: 6px 0px;\n    font-size: 14px;\n    line-height: 22px;\n    color: inherit;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n\n  & ol, & ul {\n    margin: 6px 0px;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n"], ["\n  color: #212B36;\n\n  & h3 {\n    margin: 0px;\n    margin-bottom: 6px;\n    font-size: 18px;\n    line-height: 28px;\n    color: inherit;\n  }\n\n  & p {\n    margin: 6px 0px;\n    font-size: 14px;\n    line-height: 22px;\n    color: inherit;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n\n  & ol, & ul {\n    margin: 6px 0px;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n"])));
-    var templateObject_1$7;
+    var Theme = j("div")(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  color: #212B36;\n\n  & h3 {\n    margin: 0px;\n    margin-bottom: 6px;\n    font-size: 18px;\n    line-height: 28px;\n    color: inherit;\n  }\n\n  & p {\n    margin: 6px 0px;\n    font-size: 14px;\n    line-height: 22px;\n    color: inherit;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n\n  & ol, & ul {\n    margin: 6px 0px;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n"], ["\n  color: #212B36;\n\n  & h3 {\n    margin: 0px;\n    margin-bottom: 6px;\n    font-size: 18px;\n    line-height: 28px;\n    color: inherit;\n  }\n\n  & p {\n    margin: 6px 0px;\n    font-size: 14px;\n    line-height: 22px;\n    color: inherit;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n\n  & ol, & ul {\n    margin: 6px 0px;\n\n    &:first-child {\n      margin-top: 0px;\n    }\n    &:last-child {\n      margin-bottom: 0px;\n    }\n  }\n"])));
+    var templateObject_1$8;
 
     var MarkdownRenderer = function (props) {
         var processor = unified()
@@ -18585,30 +18590,56 @@ var WithContextWidgetSDK = (function () {
         return interval + (interval === 1 ? ' year ago' : ' years ago');
     }
 
+    function djb2HashCode(str) {
+        var hash = 5381;
+        for (var i = 0; i < str.length; i += 1) {
+            hash = hash * 33 + str.charCodeAt(i);
+        }
+        return (hash % 5) + 1;
+    }
+
+    function getAvatarUrl(url, id) {
+        if (url)
+            return url;
+        return "https://webcdn.withcontext.ai/web/assets/tu".concat(djb2HashCode(id), ".png");
+    }
+
+    var Avatar = j('img')(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  border-radius: 50%;\n  object-fit: cover;\n"], ["\n  border-radius: 50%;\n  object-fit: cover;\n"])));
+    function ModelAvatar(_a) {
+        var _b = _a.size, size = _b === void 0 ? 'md' : _b;
+        if (!modelAvatarUrl.value && !modelId.value)
+            return null;
+        var src = getAvatarUrl(modelAvatarUrl.value, modelId.value);
+        var width = F(function () { return size === 'sm' ? '20px' : '40px'; }, [size]);
+        return (y$1(Avatar, { src: src, alt: "Model avatar", width: width, height: width }));
+    }
+    var templateObject_1$7;
+
     var Wrapper$1 = j('div')(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  padding: 16px 0px;\n\n  &:first-child {\n    padding-top: 0;\n  }\n"], ["\n  display: flex;\n  flex-direction: column;\n  padding: 16px 0px;\n\n  &:first-child {\n    padding-top: 0;\n  }\n"])));
-    var Meta = j('div')(templateObject_2$2 || (templateObject_2$2 = __makeTemplateObject(["\n  align-self: ", ";\n  display: flex;\n  align-items: center;\n"], ["\n  align-self: ", ";\n  display: flex;\n  align-items: center;\n"])), function (props) { return (props.isMe ? 'flex-end' : 'flex-start'); });
+    var Meta = j('div')(templateObject_2$2 || (templateObject_2$2 = __makeTemplateObject(["\n  align-self: ", ";\n  display: flex;\n  align-items: center;\n\n  & > :not([hidden]) ~ :not([hidden]) {\n    margin-left: 8px;\n  }\n"], ["\n  align-self: ", ";\n  display: flex;\n  align-items: center;\n\n  & > :not([hidden]) ~ :not([hidden]) {\n    margin-left: 8px;\n  }\n"])), function (props) { return (props.isMe ? 'flex-end' : 'flex-start'); });
     var Time = j('div')(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  font-size: 12px;\n  line-height: 18px;\n  color: #919eab;\n"], ["\n  font-size: 12px;\n  line-height: 18px;\n  color: #919eab;\n"])));
-    var Message = j('div')(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  margin-top: 8px;\n  padding: 12px;\n  font-size: 14px;\n  line-height: 22px;\n  color: #212b36;\n  background-color: ", ";\n  border-radius: 8px;\n  word-break: break-word;\n"], ["\n  margin-top: 8px;\n  padding: 12px;\n  font-size: 14px;\n  line-height: 22px;\n  color: #212b36;\n  background-color: ", ";\n  border-radius: 8px;\n  word-break: break-word;\n"])), function (props) { return (props.isMe ? '#C8FACD' : '#F4F6F8'); });
+    var Message = j('div')(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  align-self: ", ";\n  margin-top: 8px;\n  padding: 12px;\n  font-size: 14px;\n  line-height: 22px;\n  color: #212b36;\n  background-color: ", ";\n  border-radius: 8px;\n  word-break: break-word;\n"], ["\n  align-self: ", ";\n  margin-top: 8px;\n  padding: 12px;\n  font-size: 14px;\n  line-height: 22px;\n  color: #212b36;\n  background-color: ", ";\n  border-radius: 8px;\n  word-break: break-word;\n"])), function (props) { return (props.isMe ? 'self-end' : 'self-start'); }, function (props) { return (props.isMe ? '#C8FACD' : '#F4F6F8'); });
     var Label = j('div')(templateObject_5$1 || (templateObject_5$1 = __makeTemplateObject(["\n  padding: 4px 8px;\n  color: white;\n  font-size: 12px;\n  background-color: #0aaeff;\n  border-radius: 6px;\n"], ["\n  padding: 4px 8px;\n  color: white;\n  font-size: 12px;\n  background-color: #0aaeff;\n  border-radius: 6px;\n"])));
     function ChatItem(_a) {
         var children = _a.children, _b = _a.isMe, isMe = _b === void 0 ? false : _b, timestamp = _a.timestamp;
         return (y$1(Wrapper$1, null,
             y$1(Meta, { isMe: isMe },
+                !isMe && y$1(ModelAvatar, { size: "sm" }),
                 timestamp && timestamp > 0 && (y$1(Time, null, formatRelativeTime(timestamp))),
-                !isMe && y$1(Label, { style: { marginLeft: '8px' } }, "AI")),
+                !isMe && y$1(Label, null, "AI")),
             y$1(Message, { isMe: isMe },
                 y$1(MarkdownRenderer, { markdown: children }))));
     }
     var templateObject_1$6, templateObject_2$2, templateObject_3$1, templateObject_4$1, templateObject_5$1;
 
     function initApp(appid) {
-        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
         return __awaiter(this, void 0, void 0, function () {
-            var response, appInfo, message, error_1;
-            return __generator(this, function (_o) {
-                switch (_o.label) {
+            var response, appInfo, chatHistory, message, error_1;
+            return __generator(this, function (_s) {
+                switch (_s.label) {
                     case 0:
-                        _o.trys.push([0, 3, , 4]);
+                        _s.trys.push([0, 3, , 4]);
                         return [4 /*yield*/, fetch('https://chat-api.withcontext.ai/v1/widget/init', {
                                 method: 'POST',
                                 body: JSON.stringify({ appid: appid }),
@@ -18618,10 +18649,10 @@ var WithContextWidgetSDK = (function () {
                                 },
                             })];
                     case 1:
-                        response = _o.sent();
+                        response = _s.sent();
                         return [4 /*yield*/, response.json()];
                     case 2:
-                        appInfo = _o.sent();
+                        appInfo = _s.sent();
                         console.log('appInfo:', appInfo);
                         if (appInfo.code === 403) {
                             isPrivateApp.value = true;
@@ -18630,37 +18661,52 @@ var WithContextWidgetSDK = (function () {
                         // 设置 chat 相关
                         chatId.value = (_a = appInfo.chat) === null || _a === void 0 ? void 0 : _a.chat_id;
                         // 设置 model 相关
-                        modelName.value = (_b = appInfo.model) === null || _b === void 0 ? void 0 : _b.name;
-                        modelCreatedAt.value = new Date((_c = appInfo.model) === null || _c === void 0 ? void 0 : _c.created_at).getTime();
-                        modelIndexStatus.value = ((_f = (_e = (_d = appInfo.model) === null || _d === void 0 ? void 0 : _d.resource) === null || _e === void 0 ? void 0 : _e.documents) === null || _f === void 0 ? void 0 : _f.some(function (_a) {
+                        modelId.value = (_b = appInfo.model) === null || _b === void 0 ? void 0 : _b.model_id;
+                        modelName.value = (_c = appInfo.model) === null || _c === void 0 ? void 0 : _c.name;
+                        modelCreatedAt.value = new Date((_d = appInfo.model) === null || _d === void 0 ? void 0 : _d.created_at).getTime();
+                        modelAvatarUrl.value = (_e = appInfo.model) === null || _e === void 0 ? void 0 : _e.avatar_url;
+                        modelIndexStatus.value = ((_h = (_g = (_f = appInfo.model) === null || _f === void 0 ? void 0 : _f.resource) === null || _g === void 0 ? void 0 : _g.documents) === null || _h === void 0 ? void 0 : _h.some(function (_a) {
                             var indexStatus = _a.indexStatus;
                             return indexStatus !== 2;
                         }))
                             ? 1
                             : 2;
-                        summaryMessages.value = (_k = (_j = (_h = (_g = appInfo.model) === null || _g === void 0 ? void 0 : _g.resource) === null || _h === void 0 ? void 0 : _h.documents) === null || _j === void 0 ? void 0 : _j.filter(function (_a) {
-                            var indexStatus = _a.indexStatus;
-                            return indexStatus === 2;
-                        })) === null || _k === void 0 ? void 0 : _k.map(function (_a) {
-                            var name = _a.name, _b = _a.summary, questions = _b.questions, summary = _b.summary;
-                            var message = "### ".concat(name, "\n").concat(summary, "\nHere are three example questions you may have about this file:\n").concat(questions
-                                .map(function (q) { return "[".concat(q, "](question::").concat(encodeURIComponent(q), ")"); })
-                                .join('\n'));
-                            return {
-                                id: uuidv4(),
-                                sender: 'ai',
-                                message: message,
-                            };
-                        });
-                        if ((_l = appInfo.model) === null || _l === void 0 ? void 0 : _l.greeting) {
-                            message = (_m = appInfo.model) === null || _m === void 0 ? void 0 : _m.greeting;
+                        summaryMessages.value =
+                            ((_m = (_l = (_k = (_j = appInfo.model) === null || _j === void 0 ? void 0 : _j.resource) === null || _k === void 0 ? void 0 : _k.documents) === null || _l === void 0 ? void 0 : _l.filter(function (_a) {
+                                var indexStatus = _a.indexStatus;
+                                return indexStatus === 2;
+                            })) === null || _m === void 0 ? void 0 : _m.map(function (_a) {
+                                var name = _a.name, _b = _a.summary, questions = _b.questions, summary = _b.summary;
+                                var message = "### ".concat(name, "\n").concat(summary, "\nHere are three example questions you may have about this file:\n").concat(questions
+                                    .map(function (q) { return "[".concat(q, "](question::").concat(encodeURIComponent(q), ")"); })
+                                    .join('\n'));
+                                return {
+                                    id: uuidv4(),
+                                    sender: 'ai',
+                                    message: message,
+                                };
+                            })) || [];
+                        if (((_o = appInfo === null || appInfo === void 0 ? void 0 : appInfo.messages) === null || _o === void 0 ? void 0 : _o.length) > 0) {
+                            chatHistory = ((_p = appInfo === null || appInfo === void 0 ? void 0 : appInfo.message) === null || _p === void 0 ? void 0 : _p.map(function (_a) {
+                                var id = _a.id, sender_type = _a.sender_type, text = _a.text, created_at = _a.created_at;
+                                return ({
+                                    id: id,
+                                    sender: sender_type === 'model' ? 'ai' : 'user',
+                                    message: text,
+                                    createdAt: new Date(created_at).getTime(),
+                                });
+                            })) || [];
+                            chatList.value = chatHistory;
+                        }
+                        if ((_q = appInfo.model) === null || _q === void 0 ? void 0 : _q.greeting) {
+                            message = (_r = appInfo.model) === null || _r === void 0 ? void 0 : _r.greeting;
                             chatList.value = __spreadArray(__spreadArray([], chatList.value, true), [
                                 { id: uuidv4(), sender: 'ai', message: message, createdAt: Date.now() },
                             ], false);
                         }
                         return [3 /*break*/, 4];
                     case 3:
-                        error_1 = _o.sent();
+                        error_1 = _s.sent();
                         console.log('initApp error:', error_1);
                         return [3 /*break*/, 4];
                     case 4: return [2 /*return*/];
@@ -18688,27 +18734,23 @@ var WithContextWidgetSDK = (function () {
         var _b = _a.isUp, isUp = _b === void 0 ? false : _b, _c = _a.isActive, isActive = _c === void 0 ? false : _c;
         var fillUp = isActive ? '#36B37E' : 'currentColor';
         var fillDown = isActive ? '#FFAB00' : 'currentColor';
-        return (y$1("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: isUp ? fillUp : fillDown, width: "24px", height: "24px", style: __assign({}, (!isUp && { transform: 'rotateX(180deg)' })) },
-            y$1("path", { d: "M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z" })));
         // return (
         //   <svg
         //     xmlns="http://www.w3.org/2000/svg"
-        //     aria-hidden="true"
-        //     role="img"
+        //     viewBox="0 0 24 24"
+        //     fill={isUp ? fillUp : fillDown}
         //     width="24px"
         //     height="24px"
-        //     viewBox="0 0 24 24"
         //     style={{ ...(!isUp && { transform: 'rotateX(180deg)' }) }}
         //   >
-        //     <path
-        //       fill={isUp ? fillUp : fillDown}
-        //       d="M23 10a2 2 0 0 0-2-2h-6.32l.96-4.57c.02-.1.03-.21.03-.32c0-.41-.17-.79-.44-1.06L14.17 1L7.59 7.58C7.22 7.95 7 8.45 7 9v10a2 2 0 0 0 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2M1 21h4V9H1v12Z"
-        //     ></path>
+        //     <path d="M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z" />
         //   </svg>
         // )
+        return (y$1("svg", { xmlns: "http://www.w3.org/2000/svg", "aria-hidden": "true", role: "img", width: "24px", height: "24px", viewBox: "0 0 24 24", style: __assign({}, (!isUp && { transform: 'rotateX(180deg)' })) },
+            y$1("path", { fill: isUp ? fillUp : fillDown, d: "M23 10a2 2 0 0 0-2-2h-6.32l.96-4.57c.02-.1.03-.21.03-.32c0-.41-.17-.79-.44-1.06L14.17 1L7.59 7.58C7.22 7.95 7 8.45 7 9v10a2 2 0 0 0 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2M1 21h4V9H1v12Z" })));
     };
-    var RefreshIcon = function () { return (y$1("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "currentColor", width: "24px", height: "24px" },
-        y$1("path", { "fill-rule": "evenodd", d: "M4.755 10.059a7.5 7.5 0 0112.548-3.364l1.903 1.903h-3.183a.75.75 0 100 1.5h4.992a.75.75 0 00.75-.75V4.356a.75.75 0 00-1.5 0v3.18l-1.9-1.9A9 9 0 003.306 9.67a.75.75 0 101.45.388zm15.408 3.352a.75.75 0 00-.919.53 7.5 7.5 0 01-12.548 3.364l-1.902-1.903h3.183a.75.75 0 000-1.5H2.984a.75.75 0 00-.75.75v4.992a.75.75 0 001.5 0v-3.18l1.9 1.9a9 9 0 0015.059-4.035.75.75 0 00-.53-.918z", "clip-rule": "evenodd" }))); };
+    var RefreshIcon = function () { return (y$1("svg", { xmlns: "http://www.w3.org/2000/svg", "aria-hidden": "true", role: "img", width: "24px", height: "24px", viewBox: "0 0 24 24" },
+        y$1("path", { fill: "none", stroke: "currentColor", "stroke-linecap": "round", "stroke-linejoin": "round", "stroke-width": "2", d: "M10 16H5v5m9-13h5V3M4.583 9.003a8 8 0 0 1 14.331-1.027m.504 7.021a8 8 0 0 1-14.332 1.027" }))); };
     function FeedbackButtons(_a) {
         var _this = this;
         var messageId = _a.messageId;
@@ -18803,10 +18845,11 @@ var WithContextWidgetSDK = (function () {
     var leftHeader = u$1(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n"], ["\n  display: flex;\n  align-items: center;\n"])));
     var title = u$1(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  margin-left: 8px;\n"], ["\n  margin-left: 8px;\n"])));
     var chatContainer = u$1(templateObject_5 || (templateObject_5 = __makeTemplateObject(["\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  padding: 24px;\n  overflow-y: auto;\n"], ["\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  padding: 24px;\n  overflow-y: auto;\n"])));
-    var ownMessage = u$1(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n  align-self: flex-end;\n"], ["\n  align-self: flex-end;\n"])));
-    var inputContainer = u$1(templateObject_7 || (templateObject_7 = __makeTemplateObject(["\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  height: 56px;\n  padding: 0px 8px;\n  box-shadow: 0 -4px 4px -4px rgb(0 0 0 / 0.05);\n"], ["\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  height: 56px;\n  padding: 0px 8px;\n  box-shadow: 0 -4px 4px -4px rgb(0 0 0 / 0.05);\n"])));
-    var input = u$1(templateObject_8 || (templateObject_8 = __makeTemplateObject(["\n  flex-grow: 1;\n  font-size: 16px;\n  color: rgb(31 41 55);\n  border: 0;\n  outline: none;\n\n  &:disabled {\n    background-color: inherit;\n  }\n"], ["\n  flex-grow: 1;\n  font-size: 16px;\n  color: rgb(31 41 55);\n  border: 0;\n  outline: none;\n\n  &:disabled {\n    background-color: inherit;\n  }\n"])));
-    var Private = j('div')(templateObject_9 || (templateObject_9 = __makeTemplateObject(["\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 18px;\n"], ["\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 18px;\n"])));
+    var leftMessage = u$1(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n  align-self: flex-start;\n"], ["\n  align-self: flex-start;\n"])));
+    var rightMessage = u$1(templateObject_7 || (templateObject_7 = __makeTemplateObject(["\n  align-self: flex-end;\n"], ["\n  align-self: flex-end;\n"])));
+    var inputContainer = u$1(templateObject_8 || (templateObject_8 = __makeTemplateObject(["\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  height: 56px;\n  padding: 0px 8px;\n  box-shadow: 0 -4px 4px -4px rgb(0 0 0 / 0.05);\n"], ["\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  height: 56px;\n  padding: 0px 8px;\n  box-shadow: 0 -4px 4px -4px rgb(0 0 0 / 0.05);\n"])));
+    var input = u$1(templateObject_9 || (templateObject_9 = __makeTemplateObject(["\n  flex-grow: 1;\n  font-size: 16px;\n  color: rgb(31 41 55);\n  border: 0;\n  outline: none;\n\n  &:disabled {\n    background-color: inherit;\n  }\n"], ["\n  flex-grow: 1;\n  font-size: 16px;\n  color: rgb(31 41 55);\n  border: 0;\n  outline: none;\n\n  &:disabled {\n    background-color: inherit;\n  }\n"])));
+    var Private = j('div')(templateObject_10 || (templateObject_10 = __makeTemplateObject(["\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 18px;\n"], ["\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 18px;\n"])));
     function Chat() {
         var inputRef = _$1(null);
         var chatContainerRef = _$1(null);
@@ -18822,9 +18865,11 @@ var WithContextWidgetSDK = (function () {
         };
         var handleSend = function () {
             if (canSendMessage.value && inputRef.current) {
-                var text = inputRef.current.value;
-                inputRef.current.value = '';
-                sendMessage(text);
+                var text = inputRef.current.value.trim();
+                if (text) {
+                    inputRef.current.value = '';
+                    sendMessage(text);
+                }
             }
         };
         var handleKeyPress = function (event) {
@@ -18841,36 +18886,34 @@ var WithContextWidgetSDK = (function () {
             return y$1(Private, null, "This model is not allowed to share.");
         }
         return (y$1("div", { class: chatBox },
-            y$1("div", { class: header },
+            isAppInitialized.value && (y$1("div", { class: header },
                 y$1("div", { class: leftHeader },
-                    y$1("img", { src: "https://webcdn.withcontext.ai/web/assets/y8ErsSpo1ZfXZVQQeOFtS.png", alt: "avatar", width: "40", height: "40" }),
+                    y$1(ModelAvatar, null),
                     y$1("div", { class: title }, modelName.value)),
-                [1, 3].includes(modelIndexStatus.value) && (y$1(IndexStatus, { value: modelIndexStatus.value }))),
-            y$1("div", { class: chatContainer, ref: chatContainerRef },
-                !modelName.value && (y$1("div", { style: {
-                        position: 'absolute',
-                        inset: 0,
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        color: '#00AB55',
-                    } },
-                    y$1(Loading, null))),
+                [1, 3].includes(modelIndexStatus.value) && (y$1(IndexStatus, { value: modelIndexStatus.value })))),
+            y$1("div", { class: chatContainer, ref: chatContainerRef }, isAppInitialized.value ? (y$1(_$2, null,
                 summaryMessages.value.map(function (_a, idx) {
                     var message = _a.message;
-                    return (y$1("div", { key: idx },
-                        y$1(ChatItem, { timestamp: modelCreatedAt.value }, message)));
+                    return (y$1(ChatItem, { key: idx, timestamp: modelCreatedAt.value }, message));
                 }),
                 chatList.value.map(function (_a, idx) {
                     var id = _a.id, sender = _a.sender, message = _a.message, createdAt = _a.createdAt;
-                    return (y$1("div", { key: id, class: "".concat(sender === 'me' ? ownMessage : '') },
+                    return (y$1("div", { key: id, class: "".concat(sender === 'me' ? rightMessage : leftMessage) },
                         y$1(ChatItem, { isMe: sender === 'me', timestamp: createdAt }, message),
                         chatList.value.length === idx + 1 && sender === 'ai' && (y$1(FeedbackButtons, { messageId: id }))));
                 }),
                 latestChatMessage.value && (y$1("div", null,
                     y$1(ChatItem, { timestamp: Date.now() }, latestChatMessage.value))),
                 isWaitingAnswer.value && (y$1("div", { style: { color: '#00AB55' } },
-                    y$1(Loading, null)))),
+                    y$1(Loading, null))))) : (y$1("div", { style: {
+                    position: 'absolute',
+                    inset: 0,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    color: '#00AB55',
+                } },
+                y$1(Loading, null)))),
             y$1("div", { class: inputContainer },
                 y$1("input", { class: input, type: "text", ref: inputRef, placeholder: canTypeMessage.value
                         ? 'Type a message'
@@ -18878,7 +18921,7 @@ var WithContextWidgetSDK = (function () {
                 y$1("div", null,
                     y$1(Button, { onClick: handleSend, disabled: !canSendMessage.value }, "Send")))));
     }
-    var templateObject_1$1, templateObject_2, templateObject_3, templateObject_4, templateObject_5, templateObject_6, templateObject_7, templateObject_8, templateObject_9;
+    var templateObject_1$1, templateObject_2, templateObject_3, templateObject_4, templateObject_5, templateObject_6, templateObject_7, templateObject_8, templateObject_9, templateObject_10;
 
     m(y$1);
     var WithContextWidgetSDK = {
