@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example Page</title>
+
+    <!-- Method 1: init id in script tag, one-line, simple -->
+    <!-- <script async src="./sdk.js" id="01GXTMRPY9YYBD8JDTZYCSVJ7S"></script> -->
+
+    <!-- Method 2: init id dynamically with WithContextWidgetSDK, flexible -->
     <script async src="./sdk.js"></script>
     <script>
-      var urlParams = new URLSearchParams(window.location.search);
-      var appId = urlParams.get('appId') || '01GXTMRPY9YYBD8JDTZYCSVJ7S';
+      var urlParams = new URLSearchParams(window.location.search)
+      var id = urlParams.get('appId') || '01GXTMRPY9YYBD8JDTZYCSVJ7S'
       window.addEventListener('load', function () {
         var w = WithContextWidgetSDK
-        typeof w != null && typeof w.init == 'function' && w.init(appId)
+        typeof w != null && typeof w.init == 'function' && w.init(id)
       })
     </script>
+
     <style>
       body {
         font-family: Arial, sans-serif;
